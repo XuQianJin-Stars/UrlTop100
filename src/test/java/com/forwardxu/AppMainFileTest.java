@@ -75,17 +75,17 @@ public class AppMainFileTest {
         }
     }
 
-//    @Test
-//    public void testFileSplit() {
-//        try {
-//            /*String targetPath = "D:\\soucecode\\data";
-//            File file = new File("D:\\soucecode\\data\\data.txt");*/
-//            String targetPath = "D:\\soucecode\\data\\s0";
-//            File file = new File("D:\\soucecode\\data\\newdata.txt");
-//            FileSpiltToWC fileUtil = new FileSpiltToWC();
-//            fileUtil.splitFile(file, targetPath);
-//        } catch (Exception e) {
-//            e.printStackTrace();
-//        }
-//    }
+    @Test
+    public void testFileSplit() {
+        try {
+            /*String targetPath = "D:\\soucecode\\data";
+            File file = new File("D:\\soucecode\\data\\data.txt");*/
+            String targetPath = "D:\\soucecode\\data\\s0";
+            File file = new File("D:\\soucecode\\data\\newdata.txt");
+            FileSpiltToWC fileUtil = new FileSpiltToWC();
+            fileUtil.splitFile(file, targetPath);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
 }

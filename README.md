@@ -104,3 +104,6 @@ java -Xmx1024m -Xms1024m -XX:+UseG1GC -XX:+PrintGCDetails
 com.forwardxu.filemerge.FileMerge D:\\soucecode\\data\\s1 D:\soucecode\\data\\s2 data.txt
 ```
 
+### **参考说明**
+测试案例中两种方案中一种拆分阶段逻辑参考:[https://github.com/daoqidelv/filespilt-demo](https://github.com/daoqidelv/filespilt-demo)
+
